@@ -1,3 +1,13 @@
 body {
     padding-left: 5vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: beige;
+}
+
+#selfIntroductionSection {
+    padding-left: 1vw;
+}
+
+.mainUl {
+    margin: 2ch;
 }
