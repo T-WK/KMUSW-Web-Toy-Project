@@ -1,0 +1,80 @@
+html {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: slategrey;
+
+    font: small-caps bold 16px/1 sans-serif;
+}
+input[type=text] {
+    font-size: 1.5em;
+    color: seashell;
+    text-shadow: 2px 2px 4px black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid rgba(0, 0, 0, 30);
+    background-color: rgba(0, 0, 0, 0);
+    width: 15em;
+    text-align: center;
+}
+input[type=text]:focus {
+    font-size: 2em;
+    width: 18em;
+}
+
+#clock, #greeting {
+    text-shadow: 3px 3px 10px whitesmoke ;
+    text-shadow: -3px 3px 10px whitesmoke ;
+    text-shadow: 3px -3px 10px whitesmoke ;
+    text-shadow: -3px -3px 10px whitesmoke ;
+}
+#clock {
+    font-size: 5em;
+}
+#main-info {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+}
+#todo-form {
+    margin-top: 1em;
+}
+#todo-list {
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+}
+#quote {
+    position: absolute;
+    bottom:1em;
+    font: italic bold 16px/2 cursive;
+    color: snow;
+    text-shadow: 4px 2px 5px black ;
+}
+#weather {
+    position: absolute;
+    right: 1em;
+}
+
+.hidden {
+    display: none;
+}
+.todo-btn {
+    border: 0;
+    padding: 0 1em;
+    font-size: 1em;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+    background-color: rgba(0, 0, 0, 0);
+}
+.todo-span {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 4px yellow;
+    color: white;
+
+    margin-left: 0.5em;
+}
