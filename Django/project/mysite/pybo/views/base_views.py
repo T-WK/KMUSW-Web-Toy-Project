@@ -1,11 +1,13 @@
 from django.core.paginator import Paginator
 from django.shortcuts import render, get_object_or_404
+import logging
+logger = logging.getLogger('pybo')
 
 from ..models import Question
 
 
 def index(request):
-    3/0 # 강제로 오류 발생
+    logger.info("INFO 레벨로 출력")
     '''
     pybo 목록 출력
     '''
