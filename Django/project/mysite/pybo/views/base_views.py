@@ -7,7 +7,7 @@ from ..models import Question
 
 
 def index(request):
-    logger.info("INFO 레벨로 출력")
+    # logger.info("INFO 레벨로 출력")
     '''
     pybo 목록 출력
     '''
